@@ -26,6 +26,9 @@ namespace WindowsFormsApplication1
             if(isval)
             {
                 MessageBox.Show("Valid User");
+                frmEmployee emp = new frmEmployee();
+                emp.Show();
+                this.Hide();
             }
             else
             {

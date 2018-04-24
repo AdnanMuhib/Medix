@@ -18,13 +18,14 @@ C:\Users\Usman Khan\Downloads\SHAREit\A1029D1102\file\dyktdy\New folder\WindowsF
 C:\Users\Usman Khan\Downloads\SHAREit\A1029D1102\file\dyktdy\New folder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\Usman Khan\Downloads\SHAREit\A1029D1102\file\dyktdy\New folder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 C:\Users\Usman Khan\Downloads\SHAREit\A1029D1102\file\dyktdy\New folder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
-D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmEmployee.resources
