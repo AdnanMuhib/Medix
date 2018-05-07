@@ -36,3 +36,22 @@ D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\bin\Micros
 D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
 D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\obj\Debug\Server.dll
 D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\obj\Debug\Server.pdb
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\ApplicationInsights.config
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Server.dll.config
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Server.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Server.pdb
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.Web.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.Web.xml
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\obj\Debug\Server.dll
+C:\Users\Usman Khan\Desktop\Medix\Server\Server\obj\Debug\Server.pdb

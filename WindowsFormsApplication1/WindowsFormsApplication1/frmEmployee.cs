@@ -32,15 +32,16 @@ namespace WindowsFormsApplication1
                 temp.Item_qty = txt_app_qty.Text;
                 temp.Item_price = txt_app_price.Text;
                 logged_users.current_user.adding_items.Add(temp);
-                txt_App_inv.Text = "";
-                txt_app_mname.Text = "";
-                txt_app_price.Text = "";
-                txt_app_qty.Text = "";
+                
                 BindingSource source = new BindingSource();
                 source.DataSource = logged_users.current_user.adding_items;
                 dgv_app_create_invoice.DataSource = source;
 
-          
+                txt_App_inv.Text = "";
+                txt_app_mname.Text = "";
+                txt_app_price.Text = "";
+                txt_app_qty.Text = "";
+
                 //cls_app_all_logged.current_user.adding_items.Where(q => q.Invoice_nmber == "1").ToList();
 
 

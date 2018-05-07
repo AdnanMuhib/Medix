@@ -29,3 +29,14 @@ C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApp
 C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\UETIAN\Desktop\Labs\OOAD\Project\RegisterAndLogin_Azhar\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmEmployee.resources
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmEmployee.resources
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Usman Khan\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
