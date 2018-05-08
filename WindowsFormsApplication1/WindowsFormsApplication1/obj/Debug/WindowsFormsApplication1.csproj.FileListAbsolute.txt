@@ -37,10 +37,10 @@ E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\inv
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
-E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.txtQty.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmEmployee.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.addProducts.resources
+E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmPurchaseProducts.resources

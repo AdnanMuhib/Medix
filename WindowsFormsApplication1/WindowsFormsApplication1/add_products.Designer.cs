@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class txtQty
+    partial class frmPurchaseProducts
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtQty = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrice = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,6 +41,8 @@
             this.txtProfit = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cbShowProducts = new System.Windows.Forms.ComboBox();
+            this.txttotal = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -54,19 +56,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(172, 183);
+            this.button1.Location = new System.Drawing.Point(180, 191);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "Add Product";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // txtQty
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 36);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(134, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtQty.Location = new System.Drawing.Point(143, 36);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(134, 20);
+            this.txtQty.TabIndex = 4;
             // 
             // label2
             // 
@@ -83,6 +86,7 @@
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(134, 20);
             this.txtPrice.TabIndex = 6;
+            this.txtPrice.Leave += new System.EventHandler(this.txtPrice_Leave);
             // 
             // label3
             // 
@@ -96,7 +100,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 91);
+            this.label4.Location = new System.Drawing.Point(22, 113);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 13);
             this.label4.TabIndex = 7;
@@ -105,7 +109,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(22, 117);
+            this.label8.Location = new System.Drawing.Point(22, 139);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(61, 13);
             this.label8.TabIndex = 9;
@@ -113,21 +117,21 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(143, 91);
+            this.dateTimePicker1.Location = new System.Drawing.Point(143, 113);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 17;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(143, 117);
+            this.dateTimePicker2.Location = new System.Drawing.Point(143, 139);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 18;
             // 
             // txtProfit
             // 
-            this.txtProfit.Location = new System.Drawing.Point(143, 143);
+            this.txtProfit.Location = new System.Drawing.Point(143, 165);
             this.txtProfit.Name = "txtProfit";
             this.txtProfit.Size = new System.Drawing.Size(134, 20);
             this.txtProfit.TabIndex = 20;
@@ -135,7 +139,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 146);
+            this.label5.Location = new System.Drawing.Point(22, 168);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 13);
             this.label5.TabIndex = 19;
@@ -149,11 +153,29 @@
             this.cbShowProducts.Size = new System.Drawing.Size(134, 21);
             this.cbShowProducts.TabIndex = 21;
             // 
-            // txtQty
+            // txttotal
+            // 
+            this.txttotal.Location = new System.Drawing.Point(143, 87);
+            this.txttotal.Name = "txttotal";
+            this.txttotal.Size = new System.Drawing.Size(134, 20);
+            this.txttotal.TabIndex = 23;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(22, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 13);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Product Total";
+            // 
+            // frmPurchaseProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 218);
+            this.Controls.Add(this.txttotal);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.cbShowProducts);
             this.Controls.Add(this.txtProfit);
             this.Controls.Add(this.label5);
@@ -163,12 +185,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtQty);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Name = "txtQty";
+            this.Name = "frmPurchaseProducts";
             this.Text = "add_products";
+            this.Load += new System.EventHandler(this.txtQty_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,7 +201,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtQty;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.Label label3;
@@ -189,5 +212,7 @@
         private System.Windows.Forms.TextBox txtProfit;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cbShowProducts;
+        private System.Windows.Forms.TextBox txttotal;
+        private System.Windows.Forms.Label label6;
     }
 }
