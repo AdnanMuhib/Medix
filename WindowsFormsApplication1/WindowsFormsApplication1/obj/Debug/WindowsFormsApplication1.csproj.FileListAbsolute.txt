@@ -41,7 +41,6 @@ E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Win
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmEmployee.resources
-E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmProductNames.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
-E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\InventoryManagementSystem.addProducts.resources
+E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.addProducts.resources

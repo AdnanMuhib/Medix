@@ -63,6 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addProducts.Designer.cs">
+      <DependentUpon>addProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="add_products.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,12 +93,6 @@
     <Compile Include="frmEmployee.Designer.cs">
       <DependentUpon>frmEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProductNames.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmProductNames.Designer.cs">
-      <DependentUpon>frmProductNames.cs</DependentUpon>
-    </Compile>
     <Compile Include="items.cs" />
     <Compile Include="logged_users.cs" />
     <Compile Include="Program.cs" />
@@ -103,6 +103,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="addProducts.resx">
+      <DependentUpon>addProducts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="add_products.resx">
       <DependentUpon>add_products.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,9 +117,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmployee.resx">
       <DependentUpon>frmEmployee.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmProductNames.resx">
-      <DependentUpon>frmProductNames.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
