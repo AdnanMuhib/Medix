@@ -44,3 +44,6 @@ E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Win
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.addProducts.resources
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmPurchaseProducts.resources
+E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmWelcome.resources
+E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmAdminPanel.resources

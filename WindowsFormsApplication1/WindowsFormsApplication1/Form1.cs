@@ -19,9 +19,26 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            localhost.Service1 ser = new localhost.Service1();
-            ser.registeruser(textBox1.Text, textBox2.Text);
-            MessageBox.Show("User Register");
+            if (textBox1.Text != "")
+            {
+                if (textBox2.Text != "")
+                {
+                    localhost.Service1 ser = new localhost.Service1();
+                    ser.registeruser(textBox1.Text, textBox2.Text);
+                    MessageBox.Show("User Has been Registered");
+                    textBox1.Text = "";
+                    textBox2.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("Please Enter Password");
+                }            
+            }
+            else
+            {
+                MessageBox.Show("Please Enter User Name");
+            }
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

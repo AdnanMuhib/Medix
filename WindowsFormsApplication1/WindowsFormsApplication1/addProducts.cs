@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApplication1
 {
-    public partial class addProducts : Form
+    public partial class frm_AddNames : Form
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\inventory.mdf;Integrated Security=True");
-        public addProducts()
+        public frm_AddNames()
         {
             InitializeComponent();
         }
@@ -45,19 +45,25 @@ namespace WindowsFormsApplication1
 
         private void btnAddNames_Click(object sender, EventArgs e)
         {
-            SqlCommand ss = new SqlCommand("Insert Into OnlyProducts(Name) Values('" + txtOlyNames.Text + "')", con);
-            ss.ExecuteNonQuery();
-            MessageBox.Show("Data Added");
-
-            try
+            if(txtOlyNames.Text != "")
             {
-                display();
-            }
-            catch
-            {
-                MessageBox.Show("Some Error");
-            }
+                SqlCommand ss = new SqlCommand("Insert Into OnlyProducts(Name) Values('" + txtOlyNames.Text + "')", con);
+                ss.ExecuteNonQuery();
+                MessageBox.Show("Data Added");
 
+                try
+                {
+                    display();
+                }
+                catch
+                {
+                    MessageBox.Show("Some Error has Occured");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Enter Product Name");
+            }
         }
 
         

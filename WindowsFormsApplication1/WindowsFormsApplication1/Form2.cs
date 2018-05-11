@@ -19,20 +19,44 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool isval;
-            bool isvalpass;
-            localhost.Service1 ser = new localhost.Service1();
-            ser.isvaliduser(textBox1.Text, textBox2.Text, out isval, out isvalpass);
-            if(isval)
+
+            if (textBox1.Text != "")
             {
-                MessageBox.Show("Valid User");
-                frmEmployee emp = new frmEmployee();
-                emp.Show();
-                this.Hide();
+                if (textBox2.Text != "")
+                {
+                    if((textBox1.Text == "admin" || textBox1.Text == "Admin" || textBox1.Text == "ADMIN") && textBox2.Text == "admin786")
+                    {
+                        frmAdminPanel admin = new frmAdminPanel();
+                        this.Hide();
+                        admin.Show();
+                    }
+                    else
+                    {
+                        bool isval;
+                        bool isvalpass;
+                        localhost.Service1 ser = new localhost.Service1();
+                        ser.isvaliduser(textBox1.Text, textBox2.Text, out isval, out isvalpass);
+                        if (isval)
+                        {
+                            frmEmployee emp = new frmEmployee();
+                            emp.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid User");
+                        }
+                    }
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Please Enter Password");
+                }
             }
             else
             {
-                MessageBox.Show("Invalid User");
+                MessageBox.Show("Please Enter User Name");
             }
         }
 
@@ -41,6 +65,11 @@ namespace WindowsFormsApplication1
             Form1 frm = new Form1();
             frm.Show();
             this.Hide();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

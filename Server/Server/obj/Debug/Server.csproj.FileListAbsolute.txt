@@ -36,3 +36,22 @@ D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\bin\Micros
 D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
 D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\obj\Debug\Server.dll
 D:\Semester_4\OOAD Lab\OOAD PRAC\RegisterAndLogin_Azhar\Server\Server\obj\Debug\Server.pdb
+E:\Project\Medix\Server\Server\bin\ApplicationInsights.config
+E:\Project\Medix\Server\Server\bin\Server.dll.config
+E:\Project\Medix\Server\Server\bin\Server.dll
+E:\Project\Medix\Server\Server\bin\Server.pdb
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.DependencyCollector.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.Web.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.WindowsServer.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.ApplicationInsights.dll
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.DependencyCollector.xml
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.Web.xml
+E:\Project\Medix\Server\Server\bin\Microsoft.AI.WindowsServer.xml
+E:\Project\Medix\Server\Server\bin\Microsoft.ApplicationInsights.xml
+E:\Project\Medix\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\Project\Medix\Server\Server\obj\Debug\Server.dll
+E:\Project\Medix\Server\Server\obj\Debug\Server.pdb
