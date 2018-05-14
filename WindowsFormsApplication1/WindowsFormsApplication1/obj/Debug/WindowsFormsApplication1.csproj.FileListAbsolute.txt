@@ -101,3 +101,6 @@ E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Cry
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ShockwaveFlashObjects.dll
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 E:\Project\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\stdole.dll
+C:\Users\UETIAN\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\UETIAN\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\UETIAN\Desktop\Medix\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
