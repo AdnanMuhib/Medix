@@ -121,5 +121,11 @@ namespace WindowsFormsApplication1
             frmAbout about = new frmAbout();
             about.Show();
         }
+
+        private void salesProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSales sales = new frmSales();
+            sales.Show();
+        }
     }
 }

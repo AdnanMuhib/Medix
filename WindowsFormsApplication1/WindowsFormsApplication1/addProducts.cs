@@ -49,6 +49,7 @@ namespace WindowsFormsApplication1
             {
                 SqlCommand ss = new SqlCommand("Insert Into OnlyProducts(Name) Values('" + txtOlyNames.Text + "')", con);
                 ss.ExecuteNonQuery();
+                txtOlyNames.Text = ""; 
                 MessageBox.Show("Data Added");
 
                 try
@@ -74,6 +75,52 @@ namespace WindowsFormsApplication1
             DataTable tbl = new DataTable();
             ss.Fill(tbl);
             dgvProductsames.DataSource = tbl;
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (txtOlyNames.Text != "")
+            {
+                int id = 0;
+                id = Convert.ToInt32(dgvProductsames.SelectedCells[0].Value.ToString());
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "delete from OnlyProducts where id = " + id + "";
+                cmd.ExecuteNonQuery();
+
+                display();
+            }
+            else
+            {
+                MessageBox.Show("Enter Product Name");
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+                DataTable dt = new DataTable();
+                SqlDataAdapter ss = new SqlDataAdapter("SELECT * FROM OnlyProducts where Name like '%" + txtSearching.Text.Trim() + "%' ", con);
+                ss.Fill(dt);
+                dgvProductsames.DataSource = dt;
+            txtSearching.Text = "";
+            
+        }
+
+        private void txtSearching_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtSearching.Text = "";
+        }
+
+        private void txtSearching_TextChanged(object sender, EventArgs e)
+        {
+            /*DataView dv = new DataView(dt);
+            dv.RowFilter = "SELECT * FROM OnlyProducts where Name like '%"+ txtSearching.Text.Trim() +"%' ";
+            dgvProductsames.DataSource = dv;*/
+        }
+
+        private void btnShowAll_Click(object sender, EventArgs e)
+        {
+            display();
         }
     }
 }

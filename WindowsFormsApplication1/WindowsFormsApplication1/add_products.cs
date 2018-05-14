@@ -75,8 +75,13 @@ namespace WindowsFormsApplication1
 
             }
 
+            txtPrice.Text = "";
+            txtProfit.Text = "";
+            txtQty.Text = "";
+            txttotal.Text = "";
+            cbShowProducts.Text = "";
             
-            MessageBox.Show("Records Inserted");
+            MessageBox.Show("Record Inserted");
         }
 
         public void display()
@@ -90,6 +95,11 @@ namespace WindowsFormsApplication1
         private void txtPrice_Leave(object sender, EventArgs e)
         {
             txttotal.Text = Convert.ToString(Convert.ToInt32(txtQty.Text) * Convert.ToInt32(txtPrice.Text));
+        }
+
+        private void cbShowProducts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

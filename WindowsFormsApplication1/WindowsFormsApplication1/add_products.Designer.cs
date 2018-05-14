@@ -165,6 +165,7 @@
             this.cbShowProducts.Name = "cbShowProducts";
             this.cbShowProducts.Size = new System.Drawing.Size(156, 27);
             this.cbShowProducts.TabIndex = 1;
+            this.cbShowProducts.SelectedIndexChanged += new System.EventHandler(this.cbShowProducts_SelectedIndexChanged);
             // 
             // txttotal
             // 

@@ -38,8 +38,11 @@ namespace WindowsFormsApplication1
                         ser.isvaliduser(textBox1.Text, textBox2.Text, out isval, out isvalpass);
                         if (isval)
                         {
-                            frmEmployee emp = new frmEmployee();
-                            emp.Show();
+                            //frmEmployee emp = new frmEmployee();
+                            frmGenerateBill gb = new frmGenerateBill();
+                            gb.Show();
+                           
+                            //emp.Show();
                             this.Hide();
                         }
                         else
